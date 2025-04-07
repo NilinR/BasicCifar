@@ -60,7 +60,7 @@ for epoch in range(epochs):
         optimizer.step()
 
         running_loss+=loss.item()
-    print(f"Epoch [{epoch+1}/{epochs}],Loss: {running_loss/len(trainloader):.4f}")
+    print(f"Epoch[{epoch+1}/{epochs}],Loss: {running_loss/len(trainloader):.4f}")
 
 print("Finished Training")
 
